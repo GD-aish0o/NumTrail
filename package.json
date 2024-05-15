@@ -1,0 +1,25 @@
+{
+  "name": "num-chase",
+  "version": "1.1.2",
+  "description": "This is an interactive number guessing game can be played on CLI  without installing by entering npx num-chase. ",
+  "main": "index.js",
+  "type":"module",
+  "bin":"index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "interactive",
+    "play",
+    "cli"
+  ],
+  "author": "Aqsa Qazi (GD-aish0o)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.21"
+  }
+}
